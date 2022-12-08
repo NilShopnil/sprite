@@ -1,0 +1,57 @@
+.social{
+    margin-top: 100px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+}
+.container a{
+    height: 83px;
+    width: 83px;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px #ccc;
+}
+.container a:nth-child(1){
+    background-image: url(images/sprite.png);
+    background-position: 0 0;
+    transition: 1s;
+}
+.container a:nth-child(1):hover{
+    background-position: 0 -84px;
+}
+.container a:nth-child(2){
+    background-image: url(images/sprite.png);
+    background-position: -588px 0;
+    transition: 1s;
+}
+.container a:nth-child(2):hover{
+    background-position: -588px -84px;
+}
+.container a:nth-child(3){
+    background-image: url(images/sprite.png);
+    background-position: -672px 0;
+    transition: 1s;
+}
+.container a:nth-child(3):hover{
+    background-position: -672px -84px;
+}
+.container a:nth-child(4){
+    background-image: url(images/sprite.png);
+    background-position: -756px 0;
+    transition: 1s;
+}
+.container a:nth-child(4):hover{
+    background-position: -756px -84px;
+}
+.container a:nth-child(5){
+    background-image: url(images/sprite.png);
+    background-position: -840px 0;
+    transition: 1s;
+}
+.container a:nth-child(5):hover{
+    background-position: -840px -84px;
+}
